@@ -27,10 +27,7 @@ store.dispatch({ type: 'counter/incremented' })
 
 console.log(store.getState())
 
-const selectCounterValue = state => state.value
 
-const currentValue = selectCounterValue(store.getState())
-console.log(currentValue)
 
 // {value: 0}
   return (
